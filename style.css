@@ -1,0 +1,49 @@
+.container{
+    margin-top: 50px;
+    margin: 50px 200px;
+    height: 50rem;
+    width: 70rem;
+    border: 1px solid green;
+    background-color: #0000ff;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.container form{
+    margin:40px 280px;
+    height: 39rem;
+    width: 35rem;
+
+    background-color: white;
+}
+.container form .right{
+    margin:40px 60px ;
+    padding-top: 30px;
+    line-height:1.4rem;
+}
+.container form .right label{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.container form .right .text{
+    height: 1.5rem;
+    width: 230px;
+}
+button{
+    height: 2rem;
+    width: 5rem;
+    margin: .1rem;
+    background-color: #0000ff;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.container #footer{
+    text-align: center;
+    color: white;
+}
+.container #footer a{
+    text-decoration: none;
+    color: #030365
+}

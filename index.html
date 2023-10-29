@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Survey Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Customer Survey Form</h1>
+            <form action="" id="myForm">
+                <div class="right">
+                    <label for="fname" >First Name</label>
+                    <br>
+                    <input type="text" id="fname" class="text" name="firstname" placeholder="Your name.." required>
+                    <br><br>
+                    <label for="lname" >Last Name</label>
+                    <br>
+                    <input type="text" id="lname" class="text" name="lastname" placeholder="Your last name.." required>
+                    <br><br>
+                    <label for="dob" >Date Of Birth</label>
+                    <br>
+                    <input type="datetime-local" name="firstname" id="dob">
+                    <br><br>
+                    <label for="gender" >Gender: </label>
+
+                    <label for="male" >Male</label>
+                    <input type="radio" value="Male" name="gender" id="male" >
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" value="Female" id="female" >
+                    <label for="other" >Others</label>
+                    <input type="radio" name="gender" value="Others" id="others">
+
+                    <br><br>
+                    <label for="country" >Country</label>
+                    <select id="country" name="country">
+                        <option value="India" id="ind">India</option>
+                        <option value="Australia" id="aus">Australia</option>
+                        <option value="Canada" id="cad">Canada</option>
+                        <option value="Usa" id="us">USA</option>
+                        <option value="Pakistan" id="pak">Pakistan</option>
+                        <option value="China" id="chin">China</option>
+                    </select>
+                    <br><br>
+                    <label for="profession" >Profession</label>
+                    <br>
+                    <label for="softwareEngineer">Software Enineer</label>
+                    <input type="radio" id="SE" name="profession" value="Software Enineer">
+                    <label for="bussiness">Bussiness Man</label>
+                    <input type="radio" id="BM" name="profession" value="Bussiness Man">
+                    <label for="farmer">Farmer</label>
+                    <input type="radio" value="Farmer" name="profession" id="FM">
+                    <br><br>
+                    <label for="">Email</label>
+                    <br>
+                    <input type="email" name="" class="text" id="email">
+                    <br><br>
+                    <label for="mno">Phone Number</label>
+                    <br>
+                    <input type="text" name="" id="phoneno" class="text">
+                    <br><br>
+                    <button type="button" id ="submit_form" onclick="myFunction()">submit</button>
+                    <button>reset</button>
+                </div>
+
+            </form>
+            <p id="footer">@2018 Customer Survey Form. All Rights Reserved | Design by <a href="">W3Layouts</a></p>
+        </div>
+
+    <script src="index.js"></script>
+    </body>
+</html>
